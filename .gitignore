@@ -1,0 +1,20 @@
+# Secrets
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# GraphRAG run artifacts
+cache/
+logs/
+graph.html
+
+# The index is regenerable but costly on free models (daily request limit),
+# so it is committed by default. Uncomment to keep it out of git.
+# output/
